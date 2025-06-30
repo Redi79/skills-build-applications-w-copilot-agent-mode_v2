@@ -25,7 +25,12 @@ SECRET_KEY = "django-insecure-1dpp@s)3$f=8n_kiiuw0jb2p$g79pf5gmyh02p&fba2acgql9u
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'redesigned-palm-tree-97v99jpjjr4f75vg-8000.app.github.dev',
+    '*',
+]
 
 
 # Application definition
